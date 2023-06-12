@@ -1,7 +1,9 @@
 {
   "name": "start-dash",
   "version": "1.0.0",
-  "engines" : { "node" : ">=12.14.0" },
+  "engines": {
+    "node": ">=12.14.0"
+  },
   "scripts": {
     "start": "./bin/webpack-dev-server",
     "build": "./bin/webpack",
@@ -19,6 +21,7 @@
   },
   "homepage": "https://github.com/startup-technology/start-dash#readme",
   "devDependencies": {
+    "@babel/preset-env": "^7.22.5",
     "eslint": "^3.4.0",
     "eslint-config-standard": "^6.0.0",
     "eslint-plugin-promise": "^3.3.0",
@@ -28,6 +31,7 @@
     "webpack-dev-server": "^3.10.1"
   },
   "dependencies": {
+    "@babel/helper-compilation-targets": "^7.22.5",
     "@babel/preset-react": "^7.8.3",
     "@rails/webpacker": "4.2.2",
     "autoprefixer": "^7.1.2",

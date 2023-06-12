@@ -1,0 +1,13 @@
+current directory: /Users/falcon/work_space/runteq_2/advanced_rails/23890_falcon-0418_runteq_curriculum_advanced/vender/bundle/ruby/2.6.0/gems/json-1.8.6/ext/json
+/Users/falcon/.rbenv/versions/2.6.5/bin/ruby -I /Users/falcon/.rbenv/versions/2.6.5/lib/ruby/2.6.0 -r ./siteconf20230612-72504-rj1s6o.rb extconf.rb
+creating Makefile
+
+current directory: /Users/falcon/work_space/runteq_2/advanced_rails/23890_falcon-0418_runteq_curriculum_advanced/vender/bundle/ruby/2.6.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/falcon/work_space/runteq_2/advanced_rails/23890_falcon-0418_runteq_curriculum_advanced/vender/bundle/ruby/2.6.0/gems/json-1.8.6/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/falcon/work_space/runteq_2/advanced_rails/23890_falcon-0418_runteq_curriculum_advanced/vender/bundle/ruby/2.6.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" install
