@@ -70,6 +70,7 @@ gem 'mini_magick'
 gem 'puma'
 
 # Background Job
+gem 'rake'
 gem 'resque'
 gem 'whenever', require: false
 

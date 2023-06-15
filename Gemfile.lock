@@ -636,6 +636,7 @@ DEPENDENCIES
   rails (= 5.2.3)
   rails-i18n (~> 5.0.0)
   rails_best_practices
+  rake
   redis-rails
   reek
   resque
