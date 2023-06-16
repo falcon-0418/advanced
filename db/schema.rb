@@ -138,5 +138,4 @@ ActiveRecord::Schema.define(version: 2018_01_08_022806) do
     t.index ["deleted_at"], name: "index_users_on_deleted_at"
     t.index ["name"], name: "index_users_on_name"
   end
-
 end
