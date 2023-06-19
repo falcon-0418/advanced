@@ -7,11 +7,11 @@ class ApplicationPolicy
   end
 
   def index?
-    false
+    user.admin? || user.editor?
   end
 
   def show?
-    false
+    true
   end
 
   def create?
@@ -27,7 +27,7 @@ class ApplicationPolicy
   end
 
   def edit?
-    update?
+    update? || user.admin? || user.editor?
   end
 
   def destroy?
