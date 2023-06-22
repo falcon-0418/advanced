@@ -67,8 +67,8 @@ ActiveRecord::Schema.define(version: 2023_06_19_131236) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.datetime "deleted_at"
-    t.integer "eye_catch_width"
-    t.integer "eye_catch_alignment", default: 0, null: false
+    t.integer "eyecatch_width"
+    t.integer "eyecatch_align", default: 0, null: false
     t.index ["author_id"], name: "index_articles_on_author_id"
     t.index ["category_id"], name: "index_articles_on_category_id"
     t.index ["deleted_at"], name: "index_articles_on_deleted_at"

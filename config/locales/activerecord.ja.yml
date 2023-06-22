@@ -45,8 +45,8 @@ ja:
         tag: 'タグ'
         author: '著者'
         published_at: '公開日'
-        eye_catch_alignment: '位置'
-        eye_catch_width: '横幅'
+        eyecatch_align: '位置'
+        eyecatch_width: '横幅'
     errors:
       models:
         user:
