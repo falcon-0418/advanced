@@ -12,6 +12,7 @@
  *
  *= require_self
  */
+ @import 'swiper/swiper-bundle.min.css';
 
 .jumbotron {
   background: url('/images/cover.jpg') center / cover;
@@ -76,4 +77,36 @@
     width: 100% !important;
     height: 100% !important;
   }
+}
+
+.main_images_box .main_image {
+  padding-right: 10px;
+}
+
+
+.swiper--wrapper {
+  /* wrapperのサイズを調整 */
+  width: 100%;
+  height: 300px;
+  display: inline-flex;
+}
+
+.swiper-slide {
+  /* スライドのサイズを調整、中身のテキスト配置調整、背景色 */
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 300px;
+}
+
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  margin: 0 0 0 10px !important;
+  background: #333 !important;
+}
+
+.swiper-pagination-bullet:first-child {
+  margin: 0 !important;
 }
