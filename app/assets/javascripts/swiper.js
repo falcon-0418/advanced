@@ -1,9 +1,9 @@
 javascript:
   document.addEventListener("DOMContentLoaded", function() {
     new Swiper('.swiper', {
-      spaceBetween: 30,
-      centeredSlides: true,
+      loop: true,
       autoplay: {
+        spaceBetween: 30,
         delay: 3000,
         disableOnInteraction: false,
       },
@@ -12,14 +12,9 @@ javascript:
         el: ".swiper-pagination",
         clickable: true,
       },
-
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-
-      scrollbar: {
-        el: '.swiper-scrollbar',
-      },
+      slidesPerView: 2.5,
+      spaceBetween: 0,
+      delay: 0,
+      speed: 10000,
     })
   });
